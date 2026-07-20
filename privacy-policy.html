@@ -124,8 +124,8 @@
 </div>
 <script>
   function showLang(lang) {
-    document.getElementById('ja').style.display = lang === 'ja' ? '' : 'none';
-    document.getElementById('en').style.display = lang === 'en' ? '' : 'none';
+    document.getElementById('ja').style.display = lang === 'ja' ? 'block' : 'none';
+    document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
     document.getElementById('btn-ja').classList.toggle('active', lang === 'ja');
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   }
